@@ -1,6 +1,43 @@
 @import "variables.less";
 @import "mixins.less";
 
+
+.navbar-toggle {
+	border: none;
+	background: transparent !important;
+  
+	&:hover {
+	  background: transparent !important;
+	}
+  
+	.icon-bar {
+	  width: 22px;
+	  transition: all 0.2s;
+	}
+	.top-bar {
+	  transform: rotate(45deg);
+	  transform-origin: 10% 10%;
+	}
+	.middle-bar {
+	  opacity: 0;
+	}
+	.bottom-bar {
+	  transform: rotate(-45deg);
+	  transform-origin: 10% 90%;
+	}
+  }
+  .navbar-toggle.collapsed {
+	.top-bar {
+	  transform: rotate(0);
+	}
+	.middle-bar {
+	  opacity: 1;
+	}
+	.bottom-bar {
+	  transform: rotate(0);
+	}
+  }
+
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
@@ -134,6 +171,7 @@ header {
 		letter-spacing: 1px;
 		li {
 			a {
+				border-radius: 10px;
 				color: white;
 				&:hover {
 					color: @theme-success;
@@ -157,7 +195,7 @@ header {
 			}
 		}
 	}
-	.navbar-toggle {
+	/*.navbar-toggle {
 		color: white;
 		text-transform: uppercase;
 		font-size: 10px;
@@ -168,7 +206,7 @@ header {
 			color: white;
 			border-color: @theme-success;
 		}
-	}
+	}*/
 }
 
 @media(min-width:768px) {
