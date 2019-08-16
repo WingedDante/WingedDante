@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art &amp; Design on The Code Frog</title>
+    <link>https://logan-trecartin.com/blog/art-design/</link>
+    <description>Recent content in Art &amp; Design on The Code Frog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2019 09:39:50 -0400</lastBuildDate>
+    
+	<atom:link href="https://logan-trecartin.com/blog/art-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
