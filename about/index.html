@@ -49,6 +49,19 @@
             color: #11520e;
             text-decoration: none;
         }
+        body{
+          position: relative;
+          min-height:100%;
+        }
+        html{
+          height:100%;
+        }
+        footer{
+          position: absolute;
+        }
+        p{
+          text-align: justify;
+        }
     </style>
   </head>
 
@@ -111,6 +124,7 @@
 
   .nav-item:hover {
     background-color: #bee0bc;
+    color: #333333;
   }
 
   .nav-item:hover>a {
@@ -252,11 +266,17 @@
     <main class="pb7" role="main" style="z-index: -1;">
       
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy mid-gray">
+
+<p class="headshot-p">
+<img src="headshot.jpg" class="headshot-i" alt="Logan"/>
+</p>
 
 <h1 id="about-me">About me</h1>
 
-<p>I&rsquo;ve been a Software Developer in some professional capacity since 2009. I began my career as a developer in the United States Air Force in 2009. I served for four years and some change, completed my associates degree, and then worked in a few different positions after I separated in 2013. I spent the most time before my current position as Senior Developer for the National Inventor&rsquo;s Hall of Fame as Lead Technical consultant for Robert Half Technology&rsquo;s Salaried Professional Services division based out of Cleveland for about 2 years.</p>
+<p>I&rsquo;ve been a Software Developer in some professional capacity since 2009. I began my career as a developer in the United States Air Force in 2009,  serving for four years and some change. I completed my associates degree while enlisted, and worked in a few different positions after I separated in 2013. I also was employed as a Lead Technical consultant for Robert Half Technology&rsquo;s Salaried Professional Services division based out of Cleveland for about 2 years (2017-2019). I current work as the Senior Developer for the National Inventor&rsquo;s Hall of Fame.</p>
+
+<p>I&rsquo;ve been an on and off ameteur musician, have dabbled in pixel art and game music composition, and have recently rekindled my love of drawing to a&hellip; probably worrying degree (<strong><em>at least if you ask my SO, who lovingly knods their head whenever I show her my work</em></strong>).  My end goal is to be able to work on projects for clients outside the realm of having a 9 to 5er, where my knowledge and experience can be put to use for many people, and I have ultimate control over my work life.</p>
 
 <h1 id="education">Education</h1>
 
@@ -266,11 +286,9 @@
 
 <p><strong><em>This section I generate from my project here <a href="https://github.com/WingedDante/Pluralsight_Scores_Util">Pluralsight Scores Util</a></em></strong></p>
 
-<p><style>
-    .measure-wide{
-        max-width: 60em;
-    }
-.box-header{
+<p><style></p>
+
+<p>.box-header{
     width:100%;
     display:inline-block;
     height: 3px;
@@ -294,6 +312,8 @@
     position: relative;
     text-align: center;
     margin-bottom: 1.4em;
+    box-shadow: -2px -2px 2px #bee0bc;
+    border-radius: 10px;
 }
 .skill-header img{
     margin: 6px 0 12px;
@@ -356,7 +376,24 @@
     background-color: #333333;
     margin-bottom: 15px;
     border-radius: 15px;
-}</style>
+    box-shadow: 2px 2px 2px #11520e;
+}
+.headshot-p{
+         margin-left: auto;
+    background-color: #333333;
+    max-width: 400px;
+    /* height: 100%; */
+    padding: 15px;
+    border-radius: 100%;
+    margin-right: auto;
+    min-width: 200px;
+    box-shadow: 2px 2px 2px #11520e;
+}
+.headshot-i{
+    border-radius: 100% !important;
+    box-shadow: -2px -2px 2px #bee0bc;
+}
+</style>
 <div class="flex-container">
 <div class="card"><div class="box-header"></div><div class="skill-header"><img src="https://pluralsight2.imgix.net/assessments/images/icons/data-1U856Y56fJtq.png" />
 <div class="skill-title">Querying Data with T-SQL</div>
@@ -466,11 +503,7 @@
 
 <h1 id="contact-me">Contact Me</h1>
 
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
+<p>I&rsquo;m available through email at <a href="mailto:loganthecodefrog@gmail.com">LoganTheCodeFrog@gmail.com</a> with any business inquiries or project propositions. There are more links to my various internet presences in the footer, including github and linkedin.</p>
 </section>
     <section class="flex-ns flex-wrap justify-around mt5">
       
