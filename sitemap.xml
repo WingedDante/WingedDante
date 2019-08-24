@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://logan-trecartin.com/blog/firstpost/</loc>
+    <lastmod>2019-08-24T15:00:59-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://logan-trecartin.com/</loc>
+    <lastmod>2019-08-24T15:00:59-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://logan-trecartin.com/about/</loc>
     <lastmod>2019-08-16T09:39:50-04:00</lastmod>
   </url>
@@ -28,10 +38,6 @@
   
   <url>
     <loc>https://logan-trecartin.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://logan-trecartin.com/</loc>
   </url>
   
 </urlset>
