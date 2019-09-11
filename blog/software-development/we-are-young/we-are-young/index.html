@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>The Code Frog  | We have no idea what we&#39;re doing</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.57.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="We have no idea what we&#39;re doing" />
+<meta property="og:description" content="There are more things in computer science, Horatio, than are dreamt of in your philosophy" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://logan-trecartin.com/blog/software-development/we-are-young/we-are-young/" />
+<meta property="article:published_time" content="2019-09-11T19:50:50-04:00" />
+<meta property="article:modified_time" content="2019-09-11T19:50:50-04:00" />
+<meta itemprop="name" content="We have no idea what we&#39;re doing">
+<meta itemprop="description" content="There are more things in computer science, Horatio, than are dreamt of in your philosophy">
+
+
+<meta itemprop="datePublished" content="2019-09-11T19:50:50-04:00" />
+<meta itemprop="dateModified" content="2019-09-11T19:50:50-04:00" />
+<meta itemprop="wordCount" content="1109">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="We have no idea what we&#39;re doing"/>
+<meta name="twitter:description" content="There are more things in computer science, Horatio, than are dreamt of in your philosophy"/>
+
+
+    <style>
+        .mw8{
+          max-width: 80rem !important;
+        }
+        a{
+            color: #11520e;
+            text-decoration: none;
+        }
+        body{
+          position: relative;
+          min-height:100%;
+        }
+        html{
+          height:100%;
+        }
+        footer{
+          position: absolute;
+        }
+        p{
+          text-align: justify;
+        }
+        .white{
+  color:#ffffff;
+}
+.footer-icon:hover{
+  color: #bee0bc;
+}
+.footer-icon{
+  margin-left: 15px;
+}
+
+    </style>
+    <script src="https://kit.fontawesome.com/eef0de914a.js"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-146175309-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+
+
+  <header>
+        <style >
+                .header-div{
+                    min-height:100px;
+                    display: flex;
+                    align-items:center;
+                }
+                .navbar{
+                    width:100%;
+                }
+                
+              </style>
+    <div class="bg-black header-div">
+      <img src="http://localhost:1313/images/codeFrog.svg" style="width:100px;height:100px;padding:15px;"></img>
+      <style>
+  .navbar {
+    position: relative;
+    right: 15px;
+    text-align: right;
+    bottom: 0px;
+  }
+
+  .nav-list {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .nav-list-mobile {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 100px;
+  }
+
+  .nav-item:hover {
+    background-color: #bee0bc;
+    color: #333333;
+  }
+
+  .nav-item:hover>a {
+    color: #333333;
+  }
+
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 60em) {
+    .navbar {
+      display: none;
+    }
+
+    .nav-item {
+      margin-left: 0px;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  @media screen and (min-width: 60em) {
+    .navbar-mobile {
+      display: none;
+    }
+  }
+
+  .navbar-mobile {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    z-index: 10;;
+  }
+
+  .nav-container-mobile {
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .fa-bars {
+    color: #bee0bc;
+  }
+  .fa-times {
+    color: #bee0bc;
+    width:48px;
+  }
+
+  .container {
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+
+  .ripple {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .ripple:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .5s, opacity 1s;
+  }
+
+  .ripple:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+  }
+</style>
+
+<script type="text/javascript">
+  function toggleMobileNav() {
+    var menu = document.getElementById('MobileMenu');
+    var open = document.getElementById('open');
+    var close = document.getElementById('close');
+
+
+    if (menu.style.visibility === "hidden") {
+      menu.style.visibility = "visible";
+      close.style.display = "block";
+      open.style.display = "none";
+    } else {
+      menu.style.visibility = "hidden";
+      close.style.display = "none";
+      open.style.display = "block";
+    }
+  }
+</script>
+<nav class="navbar">
+
+  <div class="nav-container">
+    <ul class="nav-list">
+        <a href="/" class="nav-link"> <li class="nav-item" > Home </li></a>
+        <a href="/blog/" class="nav-link"> <li class="nav-item"> Blog </li></a>
+        <a href="/blog/software-development/" class="nav-link"><li class="nav-item">  Software Dev </li></a>
+        <a href="/blog/art-design/" class="nav-link"> <li class="nav-item"> Art & Design </li></a>
+        <a href="/about/" class="nav-link"> <li class="nav-item"> About </li></a>
+    </ul>
+  </div>
+</nav>
+<nav class="navbar-mobile" >
+  <div class="container ripple" onclick="toggleMobileNav()">
+    <i class="fas fa-bars fa-3x " id="open"></i>
+    <i class="fas fa-times fa-3x" style="display:none;" id="close"></i>
+  </div>
+  <div class="nav-container-mobile" id="MobileMenu" style="visibility: hidden;">
+    <ul class="nav-list-mobile">
+        <a href="/" class="nav-link"> <li class="nav-item"> Home </li></a>
+        <a href="/blog/" class="nav-link"> <li class="nav-item">Blog </li></a>
+        <a href="/blog/software-development/" class="nav-link"><li class="nav-item">  Software Dev </li></a>
+        <a href="/blog/art-design/" class="nav-link"> <li class="nav-item"> Art & Design</li> </a>
+        <a href="/about/" class="nav-link"> <li class="nav-item">About </li></a>
+    </ul>
+  </div>
+</nav>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main" style="z-index: -1;">
+      
+
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+        <p class="f6 b helvetica tracked">
+            
+            SOFTWARE DEVELOPMENT
+        </p>
+        <h1 class="f1 athelas mb1">We have no idea what we&#39;re doing</h1>
+        
+        <time class="f6 mv4 dib tracked" datetime="2019-09-11T19:50:50-04:00">September 11, 2019</time>
+        
+        
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><img src="/blog/Software%20Development/We-Are-Young/dogMeme.jpg" alt="We all have no idea what we're doing" /></p>
+
+<p>Consider for a moment, how long some professions have been around.  How long have we been constructing bridges, cooking food, making clothes, making art, fighting, and we won&rsquo;t mention the oldest profession, but you get the idea here.  Now how long have we been creating software? Working with computers?  Even having Information Technology as 2 words that belong together?  Not very long.  In a larger view of the world, we are the professional equivalent of babies, but we are full, to the bursting, with individuals and organizations who would swear on the soul of their first born child, that they know the <em>best</em> way to do what we do.</p>
+
+<p><strong>I have an issue with that.</strong></p>
+
+<p>I mean I know <em>why</em> they say that, I just don&rsquo;t think that they&rsquo;re necessarily <em>correct</em>.</p>
+
+<p>Take the following:</p>
+
+<p>In the world of computer science, and development especially, we have grown comfortable in thinking that things from five or ten years ago are ancient.  These are legacy programs, projects, and applications.  We feel bad for the desperate souls who are left to maintain them, taking the figurative arrow to the knee for the rest of us.  They were built with what were, perhaps at the time, very bright developers following all the rules and best practices of their day.  They followed their SDLC, they had pages of requirements meticulously gathered by tens of meetings, they designed how everything would function together,  they <em>knew</em> that the project would live on for eternity as a bastion of quality driving forward the business into a new age of success.</p>
+
+<p>Then, as Columbo says, <em>&ldquo;Just one more thing&rdquo;</em>.</p>
+
+<p>That&rsquo;s how it always begins, first with a whisper, then with a roar of change requests and feature updates.  Code that was <code>//good enough for now</code> quickly morphs to being <code>//enough for now</code> and then <code>//enough</code>, to finally fall to the depths of <code>//I think this isn't needed anymore, but everyone is too afraid to touch it because one time Tom did and half a department got fired</code>.</p>
+
+<p>5-10 years later every developer at the organization is either in management and can&rsquo;t code anymore, or has moved on to something better, because they got fed up with being unable to do their job to the best of their ability without someone getting in the way because their cousin Jeff built a website one time for the cub scout troop, and they definitely know what they&rsquo;re talking about.</p>
+
+<p>So now the code is in a state of dissary, discombobulation, and general dismemberment as the new cohort of caffeine fueled rage driven developers grinds their brains every day to keep the organization off their backs for long enough for them to move on to the next job, which will definitely be better, we promise.</p>
+
+<p>This situation exists in every company, at every location, more than likely in every country.  <em>That&rsquo;s a problem, right?</em>  Now, we are <em>developers</em>, we&rsquo;ve read documentation, we&rsquo;ve seen projects succeed and fail, we&rsquo;ve honed our methods to the madness of various organizations, and now we know how to <strong>Get Shit Done</strong> (Trademark Pending). So we decide to share our methods, share our madness, with the world. We think that it will help them.  It does, for some. For others, not quite. We&rsquo;ve added our knowledge to the, relatively speaking, shallow pool of possible development experience living in the wild.</p>
+
+<p>And we saw how it helped people, and it was good.</p>
+
+<p>And so, we turn our ways of developing into a concrete method, because that&rsquo;s easier to follow right?  We make guidelines, manifestos, we write papers, do conferences, and now everyone knows <em>the best way</em> to write software. People get questions about it in interviews, because to be a good developer, you <em>must</em> know about this right? But now George over here wants you to change some things around, oh and it&rsquo;s more efficient to keep this piece of code in this architectural layer in this scenario, which is important to this critical application.</p>
+
+<p>So it continues, with buzzword after buzzword fading in and out of existance like campaign promises.</p>
+
+<p>I have no problem with a lot of what we do when we help developers. <em>(aside from trying to make them pay for school for four years for a computer science degree that in most cases doesn&rsquo;t even teach you how to be a developer at all)</em> In the last two to three years I&rsquo;ve run into at least two separate individuals who have come up with their own template &lsquo;Architecture&rsquo;, that&rsquo;s an overcomplicated mess for anyone to use to create an application from the ground up.</p>
+
+<p>What I propose, is that we stop lauding these fix-all, catch-all templates as the light at the end of the tunnel, and instead turn our focus a little smaller, a little more realistic, and get back to something SOLID.</p>
+
+<p>When I start a new project, I keep in mind a few basic principles and concepts to make the journey as painless as possible:</p>
+
+<ul>
+<li>PDD (Pain Driven Development)
+
+<ul>
+<li>This really helps temper over abstraction issues that more experienced developers can start with, trying to think too many steps ahead.</li>
+</ul></li>
+<li>SOLID Principles
+
+<ul>
+<li>I think these are the most important principles in creating software that&rsquo;s sustainable and extendable.  I keep a document here (<a href="https://github.com/WingedDante/DocsRepo/blob/master/SOLID.md">Github</a>) with an overview of what they are, and share it wherever I go if someone isn&rsquo;t familiar with SOLID principles.</li>
+</ul></li>
+<li>Small feedback loops (Iteration)
+
+<ul>
+<li>This is a thing from Agile development, but it solves the biggest issue with software projects by getting constant feedback from customers/stakeholders, and allows developers to course correct before their plane to San Francisco ends up in Orlando.</li>
+</ul></li>
+</ul>
+
+<p>I think of these more as guideposts to help keep things on track, than the holy gospel of how to develop an application.</p>
+
+<p>At the end of the day, none of us really <em>KNOWS</em> the best way to develop an application for a specific project without knowing the details, and our profession is in such an adolescent state that I think we all need to step back from being <strong>correct</strong> all the time, and focus more on learning and growing with our field.</p>
+
+<p>I guess my point, and the bottom line is this:</p>
+
+<p>We need more emphasis on problem solving, on thinking, on intelligent deconstruction and reconstruction of requests and requirements, and less on following X standard.  If you create your solution by keeping your abstractions for things that <em>need</em> abstracted, refactor as you go as needed, and design with the future in mind but kept in a tight scope, then it gives the poor sod that comes in after you a fighting chance to keep the beast alive.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+            
+
+        </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+    <style type="text/css">
+        .utterances {
+            width: 100%;
+            margin: 0px;
+            background-color: #333333;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px #333333;
+        }
+
+        .pre,
+        pre {
+            overflow: auto;
+        }
+
+        .highlight>div {
+            border-radius: 25px;
+        }
+        #TableOfContents >ul >li> ul{
+            margin-left:15px;
+        }
+    </style>
+    <script src="https://utteranc.es/client.js" repo="wingeddante/wingeddante.github.io" issue-term="pathname"
+        theme="photon-dark" crossorigin="anonymous" async>
+        </script>
+
+</article>
+
+    </main>
+    
+<footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+    <div class="flex justify-between">
+    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://logan-trecartin.com" >
+      &copy; 2019 The Code Frog
+    </a>
+      <div>
+        <a href="https://www.github.com/wingeddante"><i class="fab fa-github fa-3x white footer-icon"></i></a>
+        <a href="https://www.linkedin.com/in/logan-trecartin-782a9818/"><i class="fab fa-linkedin fa-3x white footer-icon"></i></a>
+        <a href="https://app.pluralsight.com/profile/logan-trecartin"><i class="fas fa-graduation-cap fa-3x white footer-icon"></i></a>
+      </div>
+    </div>
+  </footer>
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

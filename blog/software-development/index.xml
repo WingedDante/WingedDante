@@ -11,5 +11,14 @@
 	<atom:link href="https://logan-trecartin.com/blog/software-development/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>We have no idea what we&#39;re doing</title>
+      <link>https://logan-trecartin.com/blog/software-development/we-are-young/we-are-young/</link>
+      <pubDate>Wed, 11 Sep 2019 19:50:50 -0400</pubDate>
+      
+      <guid>https://logan-trecartin.com/blog/software-development/we-are-young/we-are-young/</guid>
+      <description>There are more things in computer science, Horatio, than are dreamt of in your philosophy</description>
+    </item>
+    
   </channel>
 </rss>
