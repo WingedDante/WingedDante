@@ -6,10 +6,19 @@
     <description>Recent content on The Code Frog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2019 19:50:50 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 18:50:50 -0400</lastBuildDate>
     
 	<atom:link href="https://logan-trecartin.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Imposter Syndrome</title>
+      <link>https://logan-trecartin.com/blog/software-development/imposter-syndrome/imposter-syndrome/</link>
+      <pubDate>Wed, 18 Sep 2019 18:50:50 -0400</pubDate>
+      
+      <guid>https://logan-trecartin.com/blog/software-development/imposter-syndrome/imposter-syndrome/</guid>
+      <description>Do I deserve to be where I am?</description>
+    </item>
     
     <item>
       <title>We have no idea what we&#39;re doing</title>
