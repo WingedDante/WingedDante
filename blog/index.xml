@@ -20,23 +20,5 @@
       <description>Innaugural post</description>
     </item>
     
-    <item>
-      <title>Art &amp; Design</title>
-      <link>https://logan-trecartin.com/blog/art-design/</link>
-      <pubDate>Fri, 16 Aug 2019 09:39:50 -0400</pubDate>
-      
-      <guid>https://logan-trecartin.com/blog/art-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Development</title>
-      <link>https://logan-trecartin.com/blog/software-development/</link>
-      <pubDate>Fri, 16 Aug 2019 09:39:50 -0400</pubDate>
-      
-      <guid>https://logan-trecartin.com/blog/software-development/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
